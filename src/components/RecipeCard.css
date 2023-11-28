@@ -1,0 +1,12 @@
+.recipe-thumbnail {
+    border-radius: 15px;
+}
+
+.recipe-card-container:hover .recipe-thumbnail {
+    opacity: 0.5;
+    transition: 0.3s ease;
+}
+
+.recipe-card-container:hover {
+    /* color of text */
+}

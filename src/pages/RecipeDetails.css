@@ -1,0 +1,34 @@
+.ingredient-list li {
+    list-style-type: disc;
+}
+
+.image-container {
+    display: flex;
+}
+
+.cover-image {
+    text-align: center;
+    width: 100%;
+}
+
+.recipe {
+    background-color: #f7f6f3;
+}
+
+@media (min-width: 1200px) {
+    .cover-image {
+        margin: auto;
+        max-width: fit-content;
+        width: 40vw;
+    }
+
+    .recipe-container {
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+    }
+
+    .recipe {
+        flex-grow: 1;
+    }
+}
